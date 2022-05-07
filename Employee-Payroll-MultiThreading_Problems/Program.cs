@@ -12,6 +12,9 @@ namespace Employee_Payroll_ADO.NET
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee Payroll Database");
+            EmployeePayrollDatabase employeePayrollDatabase = new EmployeePayrollDatabase();
+            int UC = Convert.ToInt32(Console.ReadLine());
+            switch (UC)
             {
 
             }
